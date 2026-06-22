@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #c911c0;
+    --fundo-senha: #b814ce;
+    --fundo-texto: #8f1c8f;
+    --borda: #800997;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -112,4 +112,12 @@ body{
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
 }
